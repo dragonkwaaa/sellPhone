@@ -1,0 +1,39 @@
+<?php
+include $_SERVER['DOCUMENT_ROOT'] . '/common/pages/top.php';
+
+?>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="naver-site-verification" content="92c2f33fb840916e9d885b3f40ca5e1ebe4a467b" />
+	<meta charset="utf-8">
+	<meta name="robots" content="index,follow"/>
+	<!-- <meta name="description" content="폰사요몰, 폰 사요몰, 폰사요 몰"/> -->
+	<meta name="title" content="폰사요몰"/>
+	<!-- <meta name="keywords" content="폰사요몰, 폰 사요몰, 폰사요 몰"/> -->
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="폰사요몰">
+	<meta property="og:description" content="폰사요몰">
+	<!-- <meta property="og:image" content="http://www.nhjeonnammall.co.kr/common/img/logoMain.png"> -->
+	<meta name="og:title" content="폰사요몰"/>
+	<meta name="og:description" content="폰사요몰"/>
+    <title>폰사요몰</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="/common/img/logoMain.png"> -->
+
+	<link type="text/css" rel="stylesheet" href="/sellPhone/common/css/reset.css">
+	<link type="text/css" rel="stylesheet" href="/sellPhone/common/css/ui.css">
+	<link type="text/css" rel="stylesheet" href="/sellPhone/common/css/style.css">
+    
+	<!-- <link type="text/css" rel="stylesheet" href="/sellPhone/common/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="/sellPhone/common/css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="/sellPhone/common/css/slick.css"> -->
+
+	<!-- <script src="/sellPhone/common/js/jquery-3.1.1.min.js"></script>
+	<script src="/sellPhone/common/js/jquery-ui-1.12.1.js"></script>
+	<script src="/sellPhone/common/js/slick.js"></script>
+	<script src="/sellPhone/common/js/common.js"></script>
+	<script src="/sellPhone/common/js/ui.js"></script> -->
+
+	<!--<script src="/intro/js/category.js"></script>-->
+</head>
