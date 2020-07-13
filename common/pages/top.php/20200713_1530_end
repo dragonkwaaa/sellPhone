@@ -1,0 +1,21 @@
+<div class="pageTop">
+    <a class="closeXBtn"></a>
+    <div class="logoBox">
+        <i class="logoMain"></i>
+    </div>
+    <div class="topMainGroup">
+        <div class="btnGroup topMainSort">
+            <a href="javascript:Void(0);" class="textBtn">중고장터</a>
+            <a href="javascript:Void(0);" class="textBtn">내폰 구입하기</a>
+            <a href="javascript:Void(0);" class="textBtn">내폰 팔기</a>
+            <a href="javascript:Void(0);" class="textBtn">리퍼&수리</a>
+            <a href="javascript:Void(0);" class="textBtn">전국지점</a>
+            <a href="javascript:Void(0);" class="textBtn">기업전용</a>
+        </div>
+        <div class="btnGroup rSideSort">
+            <a href="javascript:Void(0);" class="iconBtn kakaoSort"></a>
+            <a href="javascript:Void(0);" class="iconBtn blogSort"></a>
+            <a href="javascript:Void(0);" class="iconBtn myBagSort"></a>
+        </div>
+    </div>
+</div>
