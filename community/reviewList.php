@@ -96,7 +96,7 @@
                                 처음엔 온라인으로 구입하려 하다 집에서 가까운 본점에 문의를 했다 반신반의 마음으로 매장에 직접 방문을 하기로 하였는데 생각보다 괜찮은 듯 하여…
                             </div>
                             <div class="btnGroup cdBoxR">
-                                <a href="javascript:Void(0);" class="bdBtn">자세히 보기</a>
+                                <a href="/sellPhone/community/reviewSpec" class="bdBtn">자세히 보기</a>
                             </div>
                         </div>
                     </li>
@@ -112,7 +112,7 @@
                                 처음엔 온라인으로 구입하려 하다 집에서 가까운 본점에 문의를 했다 반신반의 마음으로 매장에 직접 방문을 하기로 하였는데 생각보다 괜찮은 듯 하여…
                             </div>
                             <div class="btnGroup cdBoxR">
-                                <a href="javascript:Void(0);" class="bdBtn">자세히 보기</a>
+                                <a href="/sellPhone/community/reviewSpec" class="bdBtn">자세히 보기</a>
                             </div>
                         </div>
                     </li>
@@ -128,7 +128,7 @@
                                 처음엔 온라인으로 구입하려 하다 집에서 가까운 본점에 문의를 했다 반신반의 마음으로 매장에 직접 방문을 하기로 하였는데 생각보다 괜찮은 듯 하여…
                             </div>
                             <div class="btnGroup cdBoxR">
-                                <a href="javascript:Void(0);" class="bdBtn">자세히 보기</a>
+                                <a href="/sellPhone/community/reviewSpec" class="bdBtn">자세히 보기</a>
                             </div>
                         </div>
                     </li>
@@ -144,7 +144,7 @@
                                 처음엔 온라인으로 구입하려 하다 집에서 가까운 본점에 문의를 했다 반신반의 마음으로 매장에 직접 방문을 하기로 하였는데 생각보다 괜찮은 듯 하여…
                             </div>
                             <div class="btnGroup cdBoxR">
-                                <a href="javascript:Void(0);" class="bdBtn">자세히 보기</a>
+                                <a href="/sellPhone/community/reviewSpec" class="bdBtn">자세히 보기</a>
                             </div>
                         </div>
                     </li>
@@ -160,7 +160,7 @@
                                 처음엔 온라인으로 구입하려 하다 집에서 가까운 본점에 문의를 했다 반신반의 마음으로 매장에 직접 방문을 하기로 하였는데 생각보다 괜찮은 듯 하여…
                             </div>
                             <div class="btnGroup cdBoxR">
-                                <a href="javascript:Void(0);" class="bdBtn">자세히 보기</a>
+                                <a href="/sellPhone/community/reviewSpec" class="bdBtn">자세히 보기</a>
                             </div>
                         </div>
                     </li>
@@ -176,7 +176,7 @@
                                 처음엔 온라인으로 구입하려 하다 집에서 가까운 본점에 문의를 했다 반신반의 마음으로 매장에 직접 방문을 하기로 하였는데 생각보다 괜찮은 듯 하여…
                             </div>
                             <div class="btnGroup cdBoxR">
-                                <a href="javascript:Void(0);" class="bdBtn">자세히 보기</a>
+                                <a href="/sellPhone/community/reviewSpec" class="bdBtn">자세히 보기</a>
                             </div>
                         </div>
                     </li>
@@ -192,7 +192,7 @@
                                 처음엔 온라인으로 구입하려 하다 집에서 가까운 본점에 문의를 했다 반신반의 마음으로 매장에 직접 방문을 하기로 하였는데 생각보다 괜찮은 듯 하여…
                             </div>
                             <div class="btnGroup cdBoxR">
-                                <a href="javascript:Void(0);" class="bdBtn">자세히 보기</a>
+                                <a href="/sellPhone/community/reviewSpec" class="bdBtn">자세히 보기</a>
                             </div>
                         </div>
                     </li>
