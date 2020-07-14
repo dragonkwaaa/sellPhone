@@ -1,0 +1,259 @@
+.relative {
+	position : relative;
+}
+.absoluteR {
+	position : absolute;
+	top : 0;
+	right : 0;
+}
+.hide {
+	display : none;
+}
+.absoluteT {
+	position : absolute;
+	top : 0;
+	left : 0;
+}
+.absoluteL {
+	position : absolute;
+	top : 0;
+	left : 0;
+}
+.absoluteMR {
+	position : absolute;
+	top : 50%;
+	right : 0;
+	transform : translateY(-50%);
+	-webkit-transform : translateY(-50%);
+}
+input::placeholder {
+	color : #888888;
+}
+textarea::placeholder {
+	color : #888888;
+}
+.verticalM {
+	vertical-align : middle;
+}
+.section {
+	width : 100%;
+	display : block;
+}
+label input[type=checkbox], 
+label input[type=radio] {
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	background : url("/common/img/checkBox_off.png") no-repeat center / cover;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+	/* vertical-align: middle; */
+	vertical-align: top;
+}
+
+label input[type=radio] {
+	background : #fff;
+	padding : 2px;
+	border : 1px solid #b3b3b3;
+	border-radius : 50% !important;
+}
+label input[type=radio]:checked {
+	border : 3px solid #ffc20e;
+}
+
+
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input, input[type=text], 
+input[type=password], 
+.tbox {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    -webkit-border-radius: 0!important;
+    box-shadow: none !important;
+    /* -webkit-border-radius: 0 !important; */
+    /* -moz-border-radius: 0 !important; */
+    /* border-radius: 0 !important; */
+}
+
+label input[type=checkbox]:checked {
+	background : url("/common/img/checkBox_on.png") no-repeat center / cover;
+}
+
+input[type=checkbox] + span, 
+input[type=radio] + span {
+    padding-left: 8px;
+	font-size: 14px;
+	line-height : 18px;
+    color: #010101;
+    display: inline-block;
+	cursor: pointer;
+	/* vertical-align: middle; */
+	vertical-align: top;
+}
+
+input:read-only {
+	background-color : #e3e3e3;
+} 
+input[readonly] {
+	background-color : #e3e3e3;
+} 
+.tAlignL {
+	text-align : left;
+}
+.tAlignR {
+	text-align : right;
+}
+.tAlignC {
+	text-align : center;
+}
+.vAlignT {
+	vertical-align : top;
+}
+.vAlignM {
+	vertical-align : middle;
+}
+.floatR {
+	float : right;
+}
+.f_underlined {
+	text-decoration : underline;
+}
+
+.sbox {
+	display : inline-block;
+	position : relative;
+}
+.sbox a {
+	padding : 18px 30px;
+	border : 1px solid #b3b3b3;
+	width : 151px;
+	display : block;
+	font-size : 16px;
+	text-align : left;
+}
+
+.sbox:before {
+	content : "";
+	width : 11px;
+	height : 6px;
+	position : absolute;
+	top : 25px;
+	right : 24px;
+	background : url("/common/img/iconDrop.png") no-repeat center / cover;
+}
+
+.sbox ul {
+	position : absolute;
+	top : 54px;
+	border : 1px solid #b3b3b3;
+	border-top : none;
+	background-color : #fff;
+	width : calc(100% - 2px);
+	height : auto;
+	max-height : 208px;
+	overflow : auto;
+	z-index : 10;
+	display : none;
+}
+.sbox ul li {
+	padding : 18px 30px;
+	font-size : 16px;
+	width : auto;
+	text-align : left;
+}
+.sbox ul li:hover {
+	/* background-color : #ffc20e; */
+	cursor : pointer;
+}
+.sbox ul li.disabled {
+	background-color : #e3e3e3;
+}
+.sbox ul li.disabled:hover {
+	background-color : #e3e3e3;
+}
+
+select {
+    height: 48px;
+    padding: 0 25px 0 10px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    background: url(/sinwon/common/img/icon_dropDown.png) no-repeat right 10px top 50% / 9px 5px;
+    border: 1px solid #d7dae2;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 14px;
+}
+select:focus {
+    outline : none;
+}
+input:focus {
+    outline : 1px solid #ccc;
+}
+
+
+.popup {
+	display : none;
+    /* position : fixed; */
+    position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%, -50%);
+	-webkit-transform : translate(-50%, -50%);
+	background-color : #fff;
+	z-index : 101;
+}
+.tip {
+	font-size : 10px;
+	color : #fb376a;
+}
+
+.logoMain {
+    width: 115px;
+    height: 40px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/logoMain.png) no-repeat center / cover;
+}
+.logoFooter {
+    width: 115px;
+    height: 40px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/logoMain.png) no-repeat center / cover;
+}
+.iconBtn.kakaoSort {
+    width: 27px;
+    height: 25px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/icon_socialKakao.png) no-repeat center / cover;
+}
+.iconBtn.blogSort {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/icon_socialBlog.png) no-repeat center / cover;
+}
+.iconBtn.myBagSort {
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/icon_myBag.png) no-repeat center / cover;
+}
+.iconBtn.searchSort {
+    position : absolute;
+    top : 0;
+    right : 0;
+    width: 56px;
+    height: 48px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/icon_search.png) no-repeat center / 20px 20px;
+}
