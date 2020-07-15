@@ -85,22 +85,30 @@
                 <tr>
                     <td>한성*님(7478)</td>
                     <td>아이폰 8</td>
-                    <td>[입금완료]</td>
+                    <td>
+                        <div class="purStatus done">[입금완료]</div>
+                    </td>
                 </tr>
                 <tr>
                     <td>한성*님(7478)</td>
                     <td>아이폰 8</td>
-                    <td>[입금완료]</td>
+                    <td>
+                        <div class="purStatus done">[입금완료]</div>
+                    </td>
                 </tr>
                 <tr>
                     <td>한성*님(7478)</td>
                     <td>아이폰 8</td>
-                    <td>[입금완료]</td>
+                    <td>
+                        <div class="purStatus done">[입금완료]</div>
+                    </td>
                 </tr>
                 <tr>
                     <td>한성*님(7478)</td>
                     <td>아이폰 8</td>
-                    <td>[입금완료]</td>
+                    <td>
+                        <div class="purStatus done">[입금완료]</div>
+                    </td>
                 </tr>
                 </tbody>
             </table>
