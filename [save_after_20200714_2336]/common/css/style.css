@@ -739,4 +739,56 @@ li .infoGroup .prcBox {
     color : #1d39b2;
     font-size : 14px;
 }
+.purcStatus tbody td {
+    padding : 17px 28px;
+    font-size : 14px;
+}
+.purcStatus tbody tr {
+    border-bottom : 1px solid #eaeaea;
+}
+.purStatus.done {
+    color : #1d39b2;
+}
+.imgFaqGroup {
+    display : block;
+    padding : 134px 0;
+    font-size : 0;
+}
+.imgFaqGroup .faqBox {
+    display : inline-block;
+    width : calc(25% - 12px);
+    text-align : center;
+    position : relative;
+    margin-left : 16px;
+}
+.imgFaqGroup .faqBox:first-child {
+    margin-left : 0;
+}
+.imgFaqGroup .faqBox .backImg {
+    width : 100%;
+}
+.imgFaqGroup .faqBox  .underBtn {
+    display : block;
+    width : 67px;
+    margin : 2px auto 0 auto;
+}
+.imgFaqGroup .faqBox .infoGroup {
+    display : block;
+    position : absolute;
+    top : 185px;
+    left : 50%;
+    transform : translateX(-50%);
+    -webkit-transform : translateX(-50%);
+    width : 100%;
+}
+.imgFaqGroup .faqBox .infoGroup .titleBox {
+    font-size : 25px;
+    font-weight : 800;
+    color : #fff;
+}
+.faqBox .toSpecSort {
+    display : block;
+    margin-top : 22px;
+    font-size : 14px;
+}
 /* :: ksg_20200714_2250 close : 내폰팔기 메인 페이지 파트 */

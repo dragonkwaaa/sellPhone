@@ -60,7 +60,6 @@
             <div class="temporalBannerArea">
                 배너구역
             </div>
-
             <table class="purcStatus">
                 <colgroup>
                     <col width="150">
@@ -77,11 +76,7 @@
                     </td>
                 </tr>
                 </thead>
-
-
-
                 <tbody>
-                
                 <tr>
                     <td>한성*님(7478)</td>
                     <td>아이폰 8</td>
@@ -112,19 +107,41 @@
                 </tr>
                 </tbody>
             </table>
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
+        <ul class="imgFaqGroup">
+            <li class="faqBox">
+                <img src="/sellPhone/common/img/imgFaq_1.png" class="backImg">
+                <div class="infoGroup">
+                    <div class="titleBox">거래방법이</br>궁금하신가요?</div>
+                    <a href="javascirpt:void(0);" class="tOnlyBtn toSpecSort">자세히보기</a>
+                    <img src="/sellPhone/common/img/underBtnLiner_1.png" class="underBtn">
+                </div> 
+            </li>
+            <li class="faqBox">
+                <img src="/sellPhone/common/img/imgFaq_2.png" class="backImg">
+                <div class="infoGroup">
+                    <div class="titleBox">거래하려면</br>얼마나 걸리나요?</div>
+                    <a href="javascirpt:void(0);" class="tOnlyBtn toSpecSort">자세히보기</a>
+                    <img src="/sellPhone/common/img/underBtnLiner_1.png" class="underBtn">
+                </div> 
+            </li>
+            <li class="faqBox">
+                <img src="/sellPhone/common/img/imgFaq_3.png" class="backImg">
+                <div class="infoGroup">
+                    <div class="titleBox">왜 폰사요몰은</br>돈을 많이 주나요?</div>
+                    <a href="javascirpt:void(0);" class="tOnlyBtn toSpecSort">자세히보기</a>
+                    <img src="/sellPhone/common/img/underBtnLiner_1.png" class="underBtn">
+                </div> 
+            </li>
+            <li class="faqBox">
+                <img src="/sellPhone/common/img/imgFaq_4.png" class="backImg">
+                <div class="infoGroup">
+                    <div class="titleBox">내폰팔기</br>특급 이벤트?</div>
+                    <a href="javascirpt:void(0);" class="tOnlyBtn toSpecSort">자세히보기</a>
+                    <img src="/sellPhone/common/img/underBtnLiner_1.png" class="underBtn">
+                </div> 
+            </li>
+        </ul>
         <div class="mainCon listSort">
 		    <div class="section listSort">
                 <div class="listTopGroup">
