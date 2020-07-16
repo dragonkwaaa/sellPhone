@@ -553,14 +553,15 @@ li .infoGroup .prcBox {
 /* :: ksg_20200713_1730 close : 중고장터 메인 페이지 파트 */
 
 /* :: ksg_20200714_1332 open : 커뮤니티(이용후기) 페이지 파트 */
-.tabBtnGroup.commSub {
+.moveToPGtab {
     display : block;
     width : 100%;
     margin-top : 65px;
     margin-bottom : 70px;
     font-size : 0;
+    text-align : center;
 }
-.tabBtnGroup.commSub .tOnlyBtn {
+.moveToPGtab .tOnlyBtn {
     display : inline-block;
     width : 25%;
     font-size : 18px;
@@ -569,7 +570,7 @@ li .infoGroup .prcBox {
     padding : 15px 0;
     border-bottom : 1px solid #ddd;
 }
-.tabBtnGroup.commSub .tOnlyBtn.activated {
+.moveToPGtab .tOnlyBtn.activated {
     border-bottom : 1px solid #000;
     font-weight : 800;
     color : #000;
@@ -658,6 +659,7 @@ li .infoGroup .prcBox {
     display : inline-block;
     border : 1px solid #000;
     font-size : 12px;
+    text-align : center;
 }
 .btnGroup.cdBoxR {
     display : block;
@@ -670,3 +672,447 @@ li .infoGroup .prcBox {
     background-color : #fff;
 }
 /* :: ksg_20200714_1332 close : 커뮤니티(이용후기) 페이지 파트 */
+
+
+/* :: ksg_20200714_2233 open :  커뮤니티(언론칭찬) 페이지 파트 */
+.commList .infoGroup.cdBoxSort .infoBox.noTitSort {
+    font-size : 14px;
+    -webkit-line-clamp: 2;
+    height : 40px;
+}
+.dateBox.cdBoxSort {
+    font-size : 12px;
+}
+/* :: ksg_20200714_2233 close :  커뮤니티(언론칭찬) 페이지 파트 */
+
+
+/* :: ksg_20200714_2250 open : 내폰팔기 메인 페이지 파트 */
+.pgTopTitGroup {
+    display : block;
+    padding : 60px 0;
+    text-align : center;
+}
+.pgTopTitGroup .mainTitle {
+    font-size : 30px;
+    font-weight : 800;
+}
+.pgTopTitGroup .subTitle {
+    font-size : 14px;
+    padding-top : 20px;
+    color : #a0a0a0;
+}
+.temporalBannerArea {
+    display : inline-block;
+    background-color : #ccc;
+    width : 65.5%;
+    max-width : 800px;
+    height : 400px;
+    margin-right : 20px;
+    vertical-align : top;
+}
+.purcStatus {
+    display : inline-block;
+    width : calc(34.5% - 20px);
+    max-width : 420px;
+    height : 400px;
+    font-size : 14px;
+    vertical-align : top;
+    border : 1px solid #eaeaea;
+
+}
+.bannerGroup.withTable {
+    font-size : 0;
+}
+.purcStatus thead {
+    border-bottom : 1px solid #eaeaea;
+}
+.purcStatus thead td {
+    padding : 20px 28px;
+}
+.purcStatus thead .topTitle {
+    color : #1d39b2;
+    font-size : 18px;
+    text-align : left;
+}
+.purcStatus thead .topMoreBox {
+    text-align : right;
+}
+.purcStatus thead .topMoreBox .tOnlyBtn {
+    color : #1d39b2;
+    font-size : 14px;
+}
+.purcStatus tbody td {
+    padding : 17px 28px;
+    font-size : 14px;
+}
+.purcStatus tbody tr {
+    border-bottom : 1px solid #eaeaea;
+}
+.purStatus.done {
+    color : #1d39b2;
+}
+.imgFaqGroup {
+    display : block;
+    padding : 134px 0;
+    font-size : 0;
+}
+.imgFaqGroup .faqBox {
+    display : inline-block;
+    width : calc(25% - 12px);
+    text-align : center;
+    position : relative;
+    margin-left : 16px;
+}
+.imgFaqGroup .faqBox:first-child {
+    margin-left : 0;
+}
+.imgFaqGroup .faqBox .backImg {
+    width : 100%;
+}
+.imgFaqGroup .faqBox  .underBtn {
+    display : block;
+    width : 67px;
+    margin : 2px auto 0 auto;
+}
+.imgFaqGroup .faqBox .infoGroup {
+    display : block;
+    position : absolute;
+    top : 185px;
+    left : 50%;
+    transform : translateX(-50%);
+    -webkit-transform : translateX(-50%);
+    width : 100%;
+}
+.imgFaqGroup .faqBox .infoGroup .titleBox {
+    font-size : 25px;
+    font-weight : 800;
+    color : #fff;
+}
+.faqBox .toSpecSort {
+    display : block;
+    margin-top : 22px;
+    font-size : 14px;
+}
+/* :: ksg_20200714_2250 close : 내폰팔기 메인 페이지 파트 */
+
+
+/* :: ksg_20200716_1448 open : 기업전용코너(이용후기) 페이지 파트 */
+
+
+.infoGroup.corpOnlyTop {
+    font-size : 0;
+    padding-bottom : 10px;
+}
+
+.infoGroup.corpOnlyTop li {
+    display : inline-block;
+    position : relative;
+    width : calc(25% - 9px);
+    height : 158px;
+    padding : 36px 0;
+    margin-left : 9px;
+    border : 1px solid #000000;
+    text-align : center;
+    vertical-align : top;
+}
+.infoGroup.corpOnlyTop li img {
+    width : 56px;
+}
+.infoGroup.corpOnlyTop li:first-child {
+    margin-left : 0;
+}
+.infoGroup.corpOnlyTop .titleBox {
+    display : block;
+    font-size : 24px;
+    padding-top : 29px;
+}
+.infoGroup.corpOnlyTop .phNumBox {
+    display : block;
+    font-size : 24px;
+    font-weight : 600;
+    padding-top : 17px;
+}
+li .cdCover {
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+}
+.moveToPGtab.coOnlySort {
+    margin-bottom : 60px;
+}
+.moveToPGtab.coOnlySort .tOnlyBtn {
+    width : 16.5%;
+}
+/* :: ksg_20200716_1448 close : 기업전용코너(이용후기) 페이지 파트 */
+
+
+/* :: ksg_20200716_1540 open : 기업전용코너 페이지 파트 */
+
+.mainCon.onlyImgSort {
+    padding-bottom : 0;
+    text-align : center;
+}
+.mainCon.onlyImgSort img {
+    width : 100%;
+}
+
+/* :: ksg_20200716_1540 close : 기업전용코너 페이지 파트 */
+
+
+
+/* :: ksg_20200716_1607 open : 중고장터 마이페이지(판매물품) 페이지 파트 */
+
+
+.moveToPGtab.sndMySort .tOnlyBtn {
+    width : 20%;
+}
+.listTopCounter {
+    display : block;
+    padding : 60px 0 30px 0;
+    border-top : 2px solid #000;
+    font-size : 0;
+}
+.listTopCounter .titleBox {
+    font-size : 16px;
+    font-weight : 400;
+}
+.listTopCounter .countNum {
+    font-size : 16px;
+    font-weight : 600;
+    padding-left : 30px;
+}
+.listTopGroup.schSort.periodSort {
+    display : block;
+    background-color : #fafafa;
+    margin-bottom : 40px;
+    padding : 30px 30px 22px 30px;
+}
+.calendarGroup {
+    vertical-align : middle;
+}
+.calendarGroup * {
+    vertical-align : middle;
+}
+.calendarGroup .datePickGroup {
+    display : inline-block;
+    position : relative;
+}
+.calendarGroup .datePickGroup .tbox.dateBox {
+    width : 90px;
+    height : 40px;
+    padding : 0 60px 0 20px;
+}
+.calendarGroup span {
+    padding : 0 20px;
+    font-size : 18px;
+}
+.calendarGroup .bgBtn.searchSort {
+    margin-left : 20px;
+    line-height : 40px;
+    width : 120px;
+    text-align : center;
+    font-size : 18px;
+}
+.monthSelGroup {
+    display : block;
+    padding-bottom : 10px;
+}
+.monthSelGroup .bgBtn {
+    width : 130px;
+    line-height : 48px;
+    font-size : 18px;
+    color : #a0a0a0;
+    background-color : #fafafa;
+    font-weight : 400;
+}
+.monthSelGroup .bgBtn.activated {
+    color : #000;
+    background-color : #fff;
+    font-weight : 800;
+}
+.goodsList.withStatSort li {
+    width : calc(25% - 9px);
+    margin-left : 9px;
+}
+.goodsList.withStatSort li:first-child {
+    margin-left : 0;
+}
+.goodsList.withStatSort li:nth-child(5n) {
+    margin-left: 0;
+}
+.goodsList.withStatSort li .infoGroup {
+    padding : 30px 0 22px 0;
+}
+.goodsList.withStatSort li .infoGroup .prcBox {
+    font-size : 24px;
+    line-height : 27px;
+    font-weight : 800;
+}
+.gdImgBox {
+    position : relative;
+}
+.gdImgBox .cdBoxStat {
+    position : absolute;
+    top : 12px;
+    left : 12px;
+    font-size : 12px;
+    color : #fff;
+    width : 70px;
+    line-height : 30px;
+    text-align : center;
+}
+.gdImgBox .cdBoxStat.doneSort {
+    background-color : #1d39b2;
+}
+.gdImgBox .cdBoxStat.onSellSort {
+    background-color : #ff5850;
+}
+.gdImgBox .cdBoxStat.refundSort {
+    background-color : #000;
+}
+.gdImgBox .cdBoxStat.returnSort {
+    background-color : #000;
+}
+.userCardGroup {
+    padding : 60px 0 20px 0;
+    font-size : 0;
+}
+.userCardGroup .userCardBox {
+    display : inline-block;
+    width : 310px;
+    padding : 35px 0 30px 0;
+    text-align : center;
+    font-size : 0;
+    background-color : #fafafa;
+    vertical-align : top;
+}
+.userCardGroup .specInfoBox {
+    display : inline-block;
+    width : calc(100% - 360px);
+    padding-left : 50px;
+    vertical-align : top;
+}
+.userCardBox .userImgBox {
+    display : block;
+    width : 100px;
+    height : 100px;
+    border-radius : 50%;
+    border : 1px solid #eaeaea;
+    background-color : #fff;
+    margin : 0 auto;
+}
+.userCardBox .nameTitle {
+    display : block;
+    margin-top : 34px;
+    font-size : 25px;
+    text-align : center;
+}
+.userCardBox .ratingGroup {
+    margin : 15px 0;
+    text-align : center;
+}
+.ratingGroup .rStarIcon {
+    margin-left : 1px;
+}
+.ratingGroup .rStarIcon:first-child {
+    margin-left : 0;
+}
+.userCardBox .bdBtn {
+    width : 110px;
+    line-height : 34px;
+}
+.userCardGroup .specInfoBox .upperGroup {
+    padding : 30px 0;
+    border-bottom : 2px solid #000;
+}
+.userCardGroup .specInfoBox .titleBox {
+    font-size : 25px;
+    padding-bottom : 20px;
+}
+.userCardGroup .specInfoBox .infoBox {
+    font-size : 14px;
+}
+.userCardGroup .specInfoBox .lowerGroup {
+    position : relative;
+    padding : 25px 0;
+}
+.userCardGroup .specInfoBox .lowerGroup .bdBtn {
+    position : absolute;
+    top : 25px;
+    right : 0;
+    width : 110px;
+    line-height : 34px;
+}
+/* :: ksg_20200716_1607 close : 중고장터 마이페이지(판매물품) 페이지 파트 */
+
+
+/* :: ksg_20200716_2121 open : 중고장터 마이페이지(구매물품) 페이지 파트 */
+.toggleListGroup {
+    border-top : 2px solid #000;
+    border-bottom : 2px solid #000;
+}
+.toggleListGroup li.fstLayer {
+    padding-top : 30px;
+}
+.liMConGroup {
+    position : relative;
+    padding : 0 40px;
+}
+.liMConGroup .bdBtn {
+    position : absolute;
+    top : 30px;
+    right : 40px;
+    width : 88px;
+    line-height : 34px;
+}
+.liMConGroup .purchImg {
+    width : 120px;
+    height : 120px;
+}
+.listDateGroup {
+    float : right;
+    font-size : 12px;
+}
+
+.listDateGroup .userNameBox {
+    padding-right : 30px;
+}
+.listDateGroup .listDateBox {
+    color : #a1a1a1;
+}
+.liMConGroup .infoGroup {
+    padding : 23px 0 21px 0;
+    font-size : 12px;
+}
+.liMConGroup .infoGroup * {
+    vertical-align : middle;
+}
+.liMConGroup .infoGroup .bulkHead {
+    padding-left : 30px;
+    margin-left : 30px;
+    border-left : 1px solid #ccc;
+}
+.liTogGroup {
+    /* display : none; */
+    position : relative;
+    background-color : #f8f8f8;
+    padding : 30px 40px;
+}
+.liTogGroup pre {
+    font-size : 14px;
+}
+.liTogGroup .bdBtn {
+    position : absolute;
+    top : 30px;
+    right : 40px;
+    width : 67px;
+    line-height : 34px;
+    background-color : #fff;
+}
+.liCommGroup {
+    margin-top : 30px;
+    border-top : 1px dotted #ddd;
+}
+/* :: ksg_20200716_2121 close : 중고장터 마이페이지(구매물품) 페이지 파트 */
