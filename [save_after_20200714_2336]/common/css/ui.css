@@ -257,3 +257,24 @@ input:focus {
     display: inline-block;
     background: url(/sellPhone/common/img/icon_search.png) no-repeat center / 20px 20px;
 }
+.calendarIcon {
+    position : absolute;
+    top : 0;
+    right : 20px;
+    width: 20px;
+    height: 40px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/icon_calendar.png) no-repeat center / 20px 20px;
+}
+.rStarIcon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/icon_star_off.png) no-repeat center / cover;
+} 
+.rStarIcon.activated {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url(/sellPhone/common/img/icon_star_on.png) no-repeat center / cover;
+} 
