@@ -8,7 +8,6 @@
 
 	<?php include $_SERVER['DOCUMENT_ROOT'] .  '/sellPhone/common/pages/top.php';?>
 
-
 	<div class="contents">
         <div class="topSearchGroup">
             <span class="txtLiner">내 폰 팔면 얼마 받을 수 있나요?</span>
@@ -28,19 +27,45 @@
             <span class="txtLiner priceSort">10,000원</span>
             <a href="javascript:void(0);" class="bgBtn nomSort">판매 신청하기</a>
         </div>
-        <div class="bannerGroup pgTopSort">
-            <a href="javascript:void(0);" class="bannerBtn">
-                <img src="/sellPhone/common/img/communityBanner_1.png">
-            </a>
+        <div class="pgTopTitGroup">
+            <div class="mainTitle">기업전용코너</div>
         </div>
-        <div class="moveToPGtab">
-            <a href="javascript:void(0);" class="tOnlyBtn">공지사항</a>
-            <a href="javascript:void(0);" class="tOnlyBtn">언론칭찬</a>
-            <a href="javascript:void(0);" class="tOnlyBtn">자주묻는질문</a>
-            <a href="javascript:void(0);" class="tOnlyBtn activated">이용후기</a>
+        <ul class="infoGroup corpOnlyTop">
+            <li>
+                <img src="/sellPhone/common/img/corpOnlyInfoImg_1.png">
+                <div class="titleBox">매입</div>
+                <div class="phNumBox">010-5565-5568</div>
+            </li>
+            <li>
+                <img src="/sellPhone/common/img/corpOnlyInfoImg_2.png">
+                <div class="titleBox">구매/임대</div>
+                <div class="phNumBox">010-5565-5568</div>
+            </li>
+            <li>
+                <img src="/sellPhone/common/img/corpOnlyInfoImg_3.png">
+                <div class="titleBox">이메일</div>
+                <div class="phNumBox">jnjg0709@naver.com</div>
+            </li>
+            <li>
+                <img src="/sellPhone/common/img/corpOnlyInfoImg_4.png">
+                <div class="titleBox">게시판상담</div>
+                <div class="phNumBox">바로가기</div>
+                <a href="javascript:void(0);" class="cdCover"></a>
+            </li>
+        </ul>
+        <div class="moveToPGtab coOnlySort">
+            <a href="javascript:void(0);" class="tOnlyBtn">폰사요몰 착한리퍼</a>
+            <a href="javascript:void(0);" class="tOnlyBtn">착한리퍼 가격</a>
+            <a href="javascript:void(0);" class="tOnlyBtn">아이폰 수리 가격</a>
+            <a href="javascript:void(0);" class="tOnlyBtn">전국지점 보기</a>
+            <a href="javascript:void(0);" class="tOnlyBtn">Q&A</a>
+            <a href="javascript:void(0);" class="tOnlyBtn activated">고객후기</a>
         </div>
         <div class="mainCon listSort">
-            <div class="lfFloat">
+            
+        
+        
+            <!-- <div class="lfFloat">
                 <div class="titleBox">이용후기</div>
                 <ul class="menuGroup commSort">
                     <li>
@@ -59,30 +84,15 @@
                         <a href="javascript:void(0);" class="tOnlyBtn ">엔지니어 직접후기</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-
-
-
-
-
-
-
-
-		    <div class="rtSection commSort">
-                <div class="listTopGroup schSort">
+		    <div class="section commSort">
+                <!-- <div class="listTopGroup schSort">
                     <div class="tboxGroup">
                         <input class="tbox" placeholder="검색어를 입력하세요.">
                         <a href="javascript:Void(0);" class="iconBtn searchSort"></a>
                     </div>
-                </div>
-
-
-
-
-
-
-
+                </div> -->
                 <ul class="commList revSort">
                     <li>
                         <div class="revMainImg">
