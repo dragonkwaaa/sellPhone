@@ -43,76 +43,7 @@
 
         <div class="mainCon listSort">
 
-
-
-            <!-- <div class="lfFloat">
-                <div class="titleBox">판매물품</div>
-                <ul class="menuGroup commSort">
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn activated">전체 판매물품</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn ">판매완료 물품</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn ">취소/환불/반품</a>
-                    </li>
-                </ul>
-            </div> -->
-
-
-            <div class="lfFloat">
-                <div class="titleBox">이용후기</div>
-                <ul class="menuGroup commSort">
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn activated">전체</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn ">내폰 매매 후기</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn ">내폰 구입 후기</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn ">내폰 수리 후기</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn ">엔지니어 직접후기</a>
-                    </li>
-                </ul>
-            </div>
-
-
-
-
-		    <div class="rtSection commSort">
-
-                <!-- <div class="listTopGroup schSort periodSort">
-                    <div class="monthSelGroup">
-                        <a href="javascript:void(0);" class="bgBtn activated">전체</a>
-                        <a href="javascript:void(0);" class="bgBtn">1개월</a>
-                        <a href="javascript:void(0);" class="bgBtn">3개월</a>
-                        <a href="javascript:void(0);" class="bgBtn">6개월</a>
-                        <a href="javascript:void(0);" class="bgBtn">12개월</a>
-                    </div>
-                    <div class="calendarGroup">
-                        <div class="datePickGroup">
-                            <input class="tbox dateBox">
-                            <i class="calendarIcon"></i>
-                        </div>
-                        <span>~</span>
-                        <div class="datePickGroup">
-                            <input class="tbox dateBox">
-                            <i class="calendarIcon"></i>
-                        </div>
-                        <a class="bgBtn searchSort">조회</a>
-                    </div>
-                </div> -->
-
-                <!-- <div class="listTopCounter">
-                    <span class="titleBox">전체</span>
-                    <span class="countNum">6개</span>
-                </div> -->
+		    <div class="section commSort">
 
                 <div class="listTopGroup schSort">
                     <div class="tboxGroup">
@@ -122,23 +53,74 @@
                 </div>
 
 
-
-                <ul class="toggleListGroup">
+                <ul class="toggleListGroup noticeSort">
                     <li class="fstLayer">
                         <div class="liMConGroup">
-                            <img src="/sellPhone/common/img/purchImg_1.png" class="purchImg">
-                            <div class="listDateGroup">
-                                <span class="userNameBox">redme**</span>
-                                <span class="listDateBox">2020.05.01</span>
+
+                            <div class="noticeTitleGroup">
+                                <div class="titleLayer">
+                                    <span class="leftTitle">제목</span>
+                                    <span class="rightMainTitle">설연휴 우체국 픽업신청 제한 안내</span>
+                                </div>
+                                <div class="titleLayer">
+                                    <span class="leftTitle">작성일</span>
+                                    <span class="rightMainTitle">2020.01.01</span>
+                                </div>
                             </div>
-                            <div class="infoGroup">
+
+
+
+                            <!-- <div class="infoGroup">
                                 <span>애플 아이폰 8 공기계 중고폰 3사호환 무약정</span>
                                 <span class="bulkHead"></span>
                                 <span>용량:256GB / 색상:실버 / 등급:A급</span>
-                            </div>
+                            </div> -->
+
+
+
                             <a href="javascript:void(0);" class="bdBtn">자세히보기</a>
                         </div>
-                        <div class="liTogGroup">
+                        <div class="liTogGroup noticeSort">
+                            <pre>
+설연휴 택배물량 폭주로 인해 1/10(금)부터 1/29(수)까지
+우체국 픽업 서비스접수가 한시적으로 제한되어 신청이 불가합니다.
+
+감사합니다.
+                            </pre>
+                            <a href="javascript:void(0);" class="bdBtn">접기</a>
+                        </div>
+
+
+                       
+                    </li>
+
+
+
+
+
+
+
+
+
+                    <li class="fstLayer">
+                        <div class="liMConGroup">
+
+                            <div class="noticeTitleGroup">
+                                <div class="titleLayer">
+                                    <span class="leftTitle">제목</span>
+                                    <span class="rightMainTitle">설연휴 우체국 픽업신청 제한 안내</span>
+                                </div>
+                                <div class="titleLayer">
+                                    <span class="leftTitle">작성일</span>
+                                    <span class="rightMainTitle">2020.01.01</span>
+                                </div>
+                            </div>
+
+
+
+                            <a href="javascript:void(0);" class="bdBtn">자세히보기</a>
+                        </div>
+                        <div class="liTogGroup noticeSort">
                             <pre>
 안녕하세요?
 Galaxy S9 PLUS (256GB) 30대
@@ -158,21 +140,22 @@ A,B급이면 되구요, 납기는 4월 중순까지면 됩니다.
                         </div>
 
 
-                        <div class="commentGroup inListSort">
-                            <div class="commMainInfo">
-                                <div class="commDivision">comments</div>
-                                <div class="commInfoLiner">메일주소는 abc@naver.com 입니다.</div>
-                            </div>
-                            <ul class="commAddGroup">
-                                <li>
-                                    <div class="tBoxGroup btnMixSort">
-                                        <input class="tbox" placeholder="댓글을 입력해주세요.">
-                                        <a href="javascript:void(0);" class="bgBtn">등록</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                       
                     </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </ul>
 
 

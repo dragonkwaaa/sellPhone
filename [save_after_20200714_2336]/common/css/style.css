@@ -1141,3 +1141,44 @@ li .cdCover {
     padding : 30px 50px 30px 60px;
 }
 /* :: ksg_20200716_2121 close : 중고장터 마이페이지(구매물품) 페이지 파트 */
+
+
+/* :: ksg_20200717_2156 open : 커뮤니티(공지사항) 페이지 파트 */
+
+.toggleListGroup.noticeSort li.fstLayer {
+    border-top : 1px solid #dedede;
+}
+
+.toggleListGroup.noticeSort .liMConGroup {
+    padding : 0 22px 30px 22px;
+
+}
+.noticeTitleGroup .titleLayer {
+    display : block;
+    line-height : 24px;
+    font-size : 0;
+}
+.titleLayer .leftTitle {
+    display : inline-block;
+    width : 177px;
+    font-size : 14px;
+    vertical-align : middle;
+    color : #888888;
+}
+.titleLayer .rightMainTitle {
+    display : inline-block;
+    font-size : 14px;
+    width : calc(100% - 177px);
+    vertical-align : middle;
+}
+.toggleListGroup.noticeSort .liMConGroup .bdBtn {
+    top : 0;
+}
+.liTogGroup.noticeSort {
+    border-top : 1px solid #dedede;
+    padding : 30px;
+}
+.liTogGroup.noticeSort .bdBtn {
+    right : 30px;
+}
+/* :: ksg_20200717_2156 close : 커뮤니티(공지사항) 페이지 파트 */
