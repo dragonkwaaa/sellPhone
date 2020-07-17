@@ -1046,3 +1046,98 @@ li .cdCover {
     line-height : 34px;
 }
 /* :: ksg_20200716_1607 close : 중고장터 마이페이지(판매물품) 페이지 파트 */
+
+
+/* :: ksg_20200716_2121 open : 중고장터 마이페이지(구매물품) 페이지 파트 */
+.toggleListGroup {
+    border-top : 2px solid #000;
+    border-bottom : 2px solid #000;
+}
+.toggleListGroup li.fstLayer {
+    padding-top : 30px;
+}
+.liMConGroup {
+    position : relative;
+    padding : 0 40px;
+}
+.liMConGroup .bdBtn {
+    position : absolute;
+    top : 30px;
+    right : 40px;
+    width : 88px;
+    line-height : 34px;
+}
+.liMConGroup .purchImg {
+    width : 120px;
+    height : 120px;
+}
+.listDateGroup {
+    float : right;
+    font-size : 12px;
+}
+
+.listDateGroup .userNameBox {
+    padding-right : 30px;
+}
+.listDateGroup .listDateBox {
+    color : #a1a1a1;
+}
+.liMConGroup .infoGroup {
+    padding : 23px 0 21px 0;
+    font-size : 12px;
+}
+.liMConGroup .infoGroup * {
+    vertical-align : middle;
+}
+.liMConGroup .infoGroup .bulkHead {
+    padding-left : 30px;
+    margin-left : 30px;
+    border-left : 1px solid #ccc;
+}
+.liTogGroup {
+    /* display : none; */
+    position : relative;
+    background-color : #f8f8f8;
+    padding : 30px 40px;
+}
+.liTogGroup pre {
+    font-size : 14px;
+}
+.liTogGroup .bdBtn {
+    position : absolute;
+    top : 30px;
+    right : 40px;
+    width : 67px;
+    line-height : 34px;
+    background-color : #fff;
+}
+.commentGroup.inListSort {
+    margin-top : 30px;
+}
+.commentGroup.inListSort .commMainInfo {
+    border-top : 1px dotted #ddd;
+    border-bottom : 1px dotted #ddd;
+    padding : 30px 60px;
+    font-size : 0;
+}
+.commMainInfo .commDivision {
+    display : inline-block;
+    width : 126px;
+    font-size : 14px;
+    color : #1d39b2;
+    font-weight : 600;
+    text-align : left;
+    vertical-align : top;
+}
+.commMainInfo .commInfoLiner {
+    display : inline-block;
+    width : calc(100% - 176px);
+    padding-left : 50px;
+    font-size : 14px;
+    vertical-align : top;
+}
+.commentGroup.inListSort .commAddGroup {
+    background-color : #fcfcfc;
+    padding : 30px 50px 30px 60px;
+}
+/* :: ksg_20200716_2121 close : 중고장터 마이페이지(구매물품) 페이지 파트 */

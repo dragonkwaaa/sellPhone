@@ -48,15 +48,18 @@
         </div>
 
         <div class="moveToPGtab sndMySort">
-            <a href="javascript:void(0);" class="tOnlyBtn activated">판매물품</a>
+            <a href="javascript:void(0);" class="tOnlyBtn">판매물품</a>
             <a href="javascript:void(0);" class="tOnlyBtn">구매물품</a>
-            <a href="javascript:void(0);" class="tOnlyBtn">받은 문의</a>
+            <a href="javascript:void(0);" class="tOnlyBtn activated">받은 문의</a>
             <a href="javascript:void(0);" class="tOnlyBtn">판매자후기관리</a>
             <a href="javascript:void(0);" class="tOnlyBtn">고객센터 문의</a>
         </div>
 
         <div class="mainCon listSort">
-            <div class="lfFloat">
+
+
+
+            <!-- <div class="lfFloat">
                 <div class="titleBox">판매물품</div>
                 <ul class="menuGroup commSort">
                     <li>
@@ -69,9 +72,13 @@
                         <a href="javascript:void(0);" class="tOnlyBtn ">취소/환불/반품</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-		    <div class="rtSection commSort">
+
+
+
+
+		    <div class="section commSort">
 
                 <div class="listTopGroup schSort periodSort">
 
@@ -96,72 +103,67 @@
                     </div>
                 </div>
 
-                <div class="listTopCounter">
+                <!-- <div class="listTopCounter">
                     <span class="titleBox">전체</span>
                     <span class="countNum">6개</span>
-                </div>
-                <ul class="goodsList withStatSort">
-                    <li>
-                        <div class="gdImgBox">
-                            <img src="/sellPhone/common/img/examplePhone_1.png">
-                            <div class="cdBoxStat doneSort">판매완료</div>
+                </div> -->
+
+
+
+
+
+                <ul class="toggleListGroup">
+                    <li class="fstLayer">
+                        <div class="liMConGroup">
+                            <img src="/sellPhone/common/img/purchImg_1.png" class="purchImg">
+                            <div class="listDateGroup">
+                                <span class="userNameBox">redme**</span>
+                                <span class="listDateBox">2020.05.01</span>
+                            </div>
+                            <div class="infoGroup">
+                                <span>애플 아이폰 8 공기계 중고폰 3사호환 무약정</span>
+                                <span class="bulkHead"></span>
+                                <span>용량:256GB / 색상:실버 / 등급:A급</span>
+                            </div>
+                            <a href="javascript:void(0);" class="bdBtn">자세히보기</a>
                         </div>
-                        <div class="infoGroup">
-                            <div class="gdNameBox">애플 아이폰</div>
-                            <div class="prcBox">299,000</div>
+                        <div class="liTogGroup">
+                            <pre>
+안녕하세요?
+Galaxy S9 PLUS (256GB) 30대
+Galaxy S10 5G (256GB) 20대
+A,B급이면 되구요, 납기는 4월 중순까지면 됩니다.
+
+견적 부탁드려요.
+
+향후 계속 추가 구매 상황이 생길 것 같습니다.
+우선 초도 물량으로 요정도만 견적 요청합니다.
+
+물건 수령시 직접 방문 드릴 예정입니다.
+
+제 전화번호는 010 3357 0276 입니다.
+                            </pre>
+                            <a href="javascript:void(0);" class="bdBtn">접기</a>
                         </div>
-                    </li>
-                    <li>
-                        <div class="gdImgBox">
-                            <img src="/sellPhone/common/img/examplePhone_1.png">
-                            <div class="cdBoxStat onSellSort">판매중</div>
-                        </div>
-                        <div class="infoGroup">
-                            <div class="gdNameBox">애플 아이폰</div>
-                            <div class="prcBox">299,000</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="gdImgBox">
-                            <img src="/sellPhone/common/img/examplePhone_1.png">
-                            <div class="cdBoxStat refundSort">환불</div>
-                        </div>
-                        <div class="infoGroup">
-                            <div class="gdNameBox">애플 아이폰</div>
-                            <div class="prcBox">299,000</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="gdImgBox">
-                            <img src="/sellPhone/common/img/examplePhone_1.png">
-                            <div class="cdBoxStat returnSort">반품</div>
-                        </div>
-                        <div class="infoGroup">
-                            <div class="gdNameBox">애플 아이폰</div>
-                            <div class="prcBox">299,000</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="gdImgBox">
-                            <img src="/sellPhone/common/img/examplePhone_1.png">
-                            <div class="cdBoxStat returnSort">반품</div>
-                        </div>
-                        <div class="infoGroup">
-                            <div class="gdNameBox">애플 아이폰</div>
-                            <div class="prcBox">299,000</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="gdImgBox">
-                            <img src="/sellPhone/common/img/examplePhone_1.png">
-                            <div class="cdBoxStat returnSort">반품</div>
-                        </div>
-                        <div class="infoGroup">
-                            <div class="gdNameBox">애플 아이폰</div>
-                            <div class="prcBox">299,000</div>
+
+
+                        <div class="commentGroup inListSort">
+                            <div class="commMainInfo">
+                                <div class="commDivision">comments</div>
+                                <div class="commInfoLiner">메일주소는 abc@naver.com 입니다.</div>
+                            </div>
+                            <ul class="commAddGroup">
+                                <li>
+                                    <div class="tBoxGroup btnMixSort">
+                                        <input class="tbox" placeholder="댓글을 입력해주세요.">
+                                        <a href="javascript:void(0);" class="bgBtn">등록</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                 </ul>
+
 
                 <!-- <div class="btnGroup moreShowSort">
                     <a href="javascript:void(0);" class="tOnlyBtn">더보기</a>
