@@ -234,8 +234,6 @@ header {
     max-width : 680px;
     padding-left : 280px;
 }
-.mainCon.userRegSort .rtSection {
-}
 .lfFloat {
     position : absolute;
     left : 0;
@@ -288,9 +286,13 @@ header {
     position : relative;
 }
 .tBoxGroup.btnMixSort .tbox {
-    width : calc(100% - 102px);
+    width : calc(100% - 150px);
+    padding-right : 134px;
 }
 .tBoxGroup.btnMixSort .bgBtn {
+    position : absolute;
+    right : 0;
+    bottom : 10px;
     width : 70px;
     height : 30px;
     line-height : 30px;
@@ -1046,3 +1048,292 @@ li .cdCover {
     line-height : 34px;
 }
 /* :: ksg_20200716_1607 close : 중고장터 마이페이지(판매물품) 페이지 파트 */
+
+
+/* :: ksg_20200716_2121 open : 중고장터 마이페이지(구매물품) 페이지 파트 */
+.toggleListGroup {
+    border-top : 2px solid #000;
+    border-bottom : 2px solid #000;
+}
+
+
+/* :: ksg_20200719_1913 open : because : 상하 패딩은 li 태그에 넣으면 안될 것 같아 제거함.  */
+/* .toggleListGroup li.fstLayer {
+    padding-top : 30px;
+} */
+/* :: ksg_20200719_1913 close  */
+
+
+
+/* ksg_20200719_1914 open : because : 상하 패딩을 여기에 적용시켜야 할 것 같아 아래에서 새로 작성함. */
+/* .liMConGroup {
+    position : relative;
+    padding : 0 40px;
+} */
+/* .liMConGroup .bdBtn {
+    position : absolute;
+    top : 30px;
+    right : 40px;
+    width : 88px;
+    line-height : 34px;
+} */
+/* ksg_20200719_1914 close */
+
+.liMConGroup {
+    position : relative;
+    padding : 30px 40px 0 40px;
+}
+.liMConGroup .bdBtn {
+    position : absolute;
+    top : 60px;
+    right : 40px;
+    width : 88px;
+    line-height : 34px;
+}
+
+
+.liMConGroup .purchImg {
+    width : 120px;
+    height : 120px;
+}
+.listDateGroup {
+    float : right;
+    font-size : 12px;
+}
+
+.listDateGroup .userNameBox {
+    padding-right : 30px;
+}
+.listDateGroup .listDateBox {
+    color : #a1a1a1;
+}
+.liMConGroup .infoGroup {
+    padding : 23px 0 21px 0;
+    font-size : 12px;
+}
+.liMConGroup .infoGroup * {
+    vertical-align : middle;
+}
+.liMConGroup .infoGroup .bulkHead {
+    padding-left : 30px;
+    margin-left : 30px;
+    border-left : 1px solid #ccc;
+}
+.liTogGroup {
+    /* display : none; */
+    position : relative;
+    background-color : #f8f8f8;
+    padding : 30px 40px;
+}
+.liTogGroup pre {
+    font-size : 14px;
+    line-height : 20px;
+}
+.liTogGroup .bdBtn {
+    position : absolute;
+    top : 30px;
+    right : 40px;
+    width : 67px;
+    line-height : 34px;
+    background-color : #fff;
+}
+.commentGroup.inListSort {
+    margin-top : 30px;
+}
+.commentGroup.inListSort .commMainInfo {
+    border-top : 1px dotted #ddd;
+    border-bottom : 1px dotted #ddd;
+    padding : 30px 60px;
+    font-size : 0;
+}
+.commMainInfo .commDivision {
+    display : inline-block;
+    width : 126px;
+    font-size : 14px;
+    color : #1d39b2;
+    font-weight : 600;
+    text-align : left;
+    vertical-align : top;
+}
+.commMainInfo .commInfoLiner {
+    display : inline-block;
+    width : calc(100% - 176px);
+    padding-left : 50px;
+    font-size : 14px;
+    vertical-align : top;
+}
+.commentGroup.inListSort .commAddGroup {
+    background-color : #fcfcfc;
+    padding : 30px 50px 30px 60px;
+}
+/* :: ksg_20200716_2121 close : 중고장터 마이페이지(구매물품) 페이지 파트 */
+
+
+/* :: ksg_20200717_2156 open : 커뮤니티(공지사항) 페이지 파트 */
+
+.toggleListGroup.noticeSort li.fstLayer {
+    border-top : 1px solid #dedede;
+}
+
+
+/* :: ksg_20200719_1917 open : because : li 태그에서 상하 패딩 제거하는 과정에서, 그와 연관된 내용으로써 아래에서 수정함.  */
+/* .toggleListGroup.noticeSort .liMConGroup {
+    padding : 0 22px 30px 22px;
+} */
+/* :: ksg_20200719_1917 close */
+.toggleListGroup.noticeSort .liMConGroup {
+    padding : 30px 22px 30px 22px;
+}
+
+.noticeTitleGroup .titleLayer {
+    display : block;
+    line-height : 24px;
+    font-size : 0;
+    padding-top : 20px;
+}
+.noticeTitleGroup .titleLayer:first-child {
+    padding-top : 0;
+}
+.titleLayer .leftTitle {
+    display : inline-block;
+    width : 177px;
+    font-size : 14px;
+    vertical-align : middle;
+    color : #888888;
+}
+.titleLayer .rightMainTitle {
+    display : inline-block;
+    font-size : 14px;
+    font-weight : 800;
+    width : calc(100% - 177px);
+    vertical-align : middle;
+}
+
+/* :: ksg_20200719_1919 open : because : li 태그에서 상하 패딩 제거하는 과정 중, 연관된 내용이므로 아래에서 수정. */
+/* .toggleListGroup.noticeSort .liMConGroup .bdBtn {
+    top : 0;
+} */
+/* :: ksg_20200719_1919 close */
+.toggleListGroup.noticeSort .liMConGroup .bdBtn {
+    top : 30px;
+}
+
+.liTogGroup.noticeSort {
+    border-top : 1px solid #dedede;
+    padding : 30px;
+}
+.liTogGroup.noticeSort .bdBtn {
+    right : 30px;
+}
+.liMConGroup .qnaMark,
+.liTogGroup .qnaMark {
+    font-size : 20px;
+    font-weight : 800;
+    padding-right : 40px;
+    vertical-align : middle;
+}
+.rightMainTitle.withQMark {
+    width: calc(100% - 326px); 
+}
+.liTogGroup pre.withQMark {
+    display: inline-block;
+    width: calc(100% - 60px);
+    vertical-align : Top;
+}
+.liMConGroup .togIconBtn {
+    position : absolute;
+    top : 50%;
+    transform : translateY(-50%);
+    -webkit-transform : translateY(-50%);
+    right : 40px;
+    width : 12px;
+    height : 24px;
+    background : url('/sellPhone/common/img/arrow_down.png') no-repeat center / 12px 6px;
+}
+
+
+/* :: ksg_20200717_2156 close : 커뮤니티(공지사항) 페이지 파트 */
+
+
+/* :: ksg_20200722_1706 open : 커뮤니티(이용후기상세) 페이지 파트 */
+.commList.revSpecSort {
+    padding-top : 30px;
+}
+.toggleListGroup.revSpSort {
+    border-bottom : none;
+}
+.commentGroup.inListSort.revSpSort .commMainInfo {
+    padding : 30px 0;
+}
+
+.commentGroup.inListSort.revSpSort .commMainInfo .commDivision {
+    display : inline-block;
+    background-color : #1d39b2;
+    color : #fff;
+    width : 67px;
+    line-height : 34px;
+    text-align : center;
+    font-weight : 400;
+}
+.commentGroup.inListSort.revSpSort .commMainInfo .commInfoLiner {
+    width : calc(100% - 85px);
+    padding : 10px 0 10px 18px;
+}
+.btnGroup.toListSort {
+    padding-top : 20px;
+}
+.btnGroup.toListSort .bgBtn {
+    height: 50px;
+    line-height: 50px;
+    width: 180px;
+    font-size: 18px;
+}
+/* :: ksg_20200722_1706 close : 커뮤니티(이용후기상세) 페이지 파트 */
+
+
+/* :: ksg_20200723_1612 open : 아이디찾기 페이지 파트 */
+.titleBox.findUserInfoSort {
+    text-align : center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.findUserInfoSection {
+    max-width : 460px;
+    margin : 0 auto;
+}
+.tabBtnGroup.findUserInfo {
+    text-align : center;
+    border-bottom : 1px solid #efefef;
+    margin-bottom : 15px;
+}
+.tabBtnGroup.findUserInfo .tOnlyBtn {
+    display : inline-block;
+    padding : 24px 27px;
+    color : #a0a0a0;
+    margin-left : 95px;
+}
+.tabBtnGroup.findUserInfo .tOnlyBtn:first-child {
+    margin-left : 0;
+}
+.tabBtnGroup.findUserInfo .tOnlyBtn.activated {
+    border-bottom : 1px solid #000;
+    color : #000;
+    font-weight : 800;
+}
+.regGroup.findUserInfoSort {
+    margin-bottom : 60px;
+}
+.btnGroup.findBotSort {
+    display : block;
+}
+.btnGroup.findBotSort .bgBtn {
+    display : block;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    font-size: 18px;
+}
+.regGroup.findUserInfoSort .tBoxGroup {
+    margin-top : 16px;
+}
+/* :: ksg_20200723_1612 close : 아이디찾기 페이지 파트 */

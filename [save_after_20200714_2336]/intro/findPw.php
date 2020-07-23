@@ -33,56 +33,33 @@
             <a href="javascript:void(0);" class="bgBtn nomSort">판매 신청하기</a>
         </div>
         <div class="mainCon userRegSort">
-            <div class="lfFloat">
-                <div class="titleBox">회원가입</div>
-                <ul class="menuGroup">
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn">약관동의</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="tOnlyBtn activated">정보입력</a>
-                    </li>
-                </ul>
-            </div>
+		    <div class="findUserInfoSection">
 
 
 
+                <div class="titleBox findUserInfoSort">아이디 / 비밀번호 찾기</div>
 
-		    <div class="rtSection">
-                <div class="titleBox sectSort">정보입력</div>
-                <div class="regGroup joinSort">
-                    <div class="tBoxGroup">
-                        <input class="tbox" placeholder="아이디"/>
-                    </div>
-                    <div class="tBoxGroup">
-                        <input class="tbox" placeholder="비밀번호"/>
-                    </div>
-                    <div class="tBoxGroup">
-                        <input class="tbox" placeholder="비밀번호 확인"/>
-                        <div class="tipBox redSort">비밀번호가 일치하지 않습니다.</div>
-                    </div>
+                <div class="tabBtnGroup findUserInfo">
+                    <a href="javascript:void(0);" class="tOnlyBtn">아이디찾기</a>
+                    <a href="javascript:void(0);" class="tOnlyBtn activated">비밀번호찾기</a>
+                </div>
+
+
+                <div class="regGroup findUserInfoSort">
                     <div class="tBoxGroup">
                         <input class="tbox" placeholder="이름"/>
                     </div>
-                    <div class="tBoxGroup">
-                        <input class="tbox" placeholder="닉네임"/>
-                    </div>
-                    <div class="tBoxGroup">
-                        <input class="tbox" placeholder="이메일"/>
-                    </div>
                     <div class="tBoxGroup btnMixSort">
-                        <input class="tbox" placeholder="휴대폰번호 ('-'빼고 입력)"/>
+                        <input class="tbox" placeholder="휴대폰번호('-'빼고 입력)"/>
                         <a href="javascript:void(0);" class="bgBtn">인증</a>
                     </div>
                     <div class="tBoxGroup btnMixSort">
                         <input class="tbox" placeholder="인증번호"/>
-                        <a href="javascript:void(0);" class="bgBtn">완료</a>
-                        <div class="tipBox tCount">2:29</div>
+                        <a href="javascript:void(0);" class="bgBtn">확인</a>
                     </div>
-                    <div class="tipBox blackSort">인증되었습니다.</div>
                 </div>
-                <div class="btnGroup regBotSort">
-                    <a href="javascript:void(0);" class="bgBtn">가입 완료</a>
+                <div class="btnGroup findBotSort">
+                    <a href="javascript:void(0);" class="bgBtn">확인</a>
                 </div>
             </div>
         </div>
