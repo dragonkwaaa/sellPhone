@@ -405,7 +405,7 @@ footer {
     padding-top : 0;
 }
 .tipBox {
-    padding : 18px 0 18px 16px;
+    padding : 18px 0 0 16px;
     font-size : 12px;
 }
 .tipBox.redSort {
@@ -430,11 +430,11 @@ footer {
 .bannerGroup.pgTopSort {
     margin-top : 60px;
 }
-.bannerGroup.pgTopSort .bannerBtn {
+.bannerGroup .bannerBtn {
     width : 100%;
     height : auto;
 }
-.bannerGroup.pgTopSort .bannerBtn img {
+.bannerGroup .bannerBtn img {
     width : 100%;
 }
 .openerGroup.listOpenSort {
@@ -1337,3 +1337,125 @@ li .cdCover {
     margin-top : 16px;
 }
 /* :: ksg_20200723_1612 close : 아이디찾기 페이지 파트 */
+
+
+/* :: ksg_20200723_1743 open : 아이디찾기 완료 페이지 파트 */
+.foundUserInfoGroup {
+    padding : 80px 0 110px 0;
+    text-align : center;
+}
+.foundUserInfoGroup .titleBox {
+    padding-bottom : 27px;
+}
+.foundUserInfoGroup .infoGroup {
+    font-weight : 800;
+}
+.rtSection.joinFinSort .titleBox.sectSort {
+    margin-bottom : 0;
+}
+.joinFinInfoGroup {
+    text-align : center;
+    padding : 70px 0;
+}
+.joinFinInfoTxt {
+    padding-top : 70px;
+}
+.joinFinInfoTxt .titleBox.smallSized {
+    font-size : 14px;
+}
+.joinFinInfoTxt .titleBox.bigSized {
+    font-size : 20px;
+}
+.joinFinInfoTxt .titleBox {
+    padding-top : 10px;
+}
+.joinFinInfoTxt .titleBox:first-child {
+    padding-top : 0;
+}
+.btnGroup.finCentered {
+    width : 100%;
+    text-align : center;
+}
+.btnGroup.regBotSort .bdBtn {
+    height: 48px;
+    line-height: 48px;
+    width: 178px;
+    font-size: 18px;
+    font-weight : 800;
+    color : #1d39b2;
+}
+/* :: ksg_20200723_1743 close : 아이디찾기 완료 페이지 파트 */
+
+
+/* :: ksg_20200724_1101 open : 약관 동의 페이지 파트 */
+.titleBox.agreeTop {
+    padding : 15px 0 55px 0;
+    font-weight : 400;
+}
+.chkGroup.joinTotalSort {
+    text-align : right;
+    border-bottom : 1px solid #efefef;
+    padding : 20px 0;
+}
+
+.chkGroup.joinTotalSort input[type=checkbox] + span {
+    font-weight : 800;
+}
+.chkGroup.joinSubSort {
+    padding : 30px 0 40px 0;
+    border-bottom : 1px solid #efefef;
+    font-weight : 800;
+}
+.chkGroup.joinSubSort:last-child {
+    border-bottom : none;
+    padding-bottom : 0;
+}
+.chkGroup.joinSubSort .titleBox {
+    font-size : 18px;
+}
+.chkGroup.joinSubSort .chkBlock {
+    display : block;
+    position : relative;
+    padding-top : 40px;
+}
+.chkBlock .linkCover {
+    position : absolute;
+    bottom : 0;
+    right : 0;
+    width : 20px;
+    height : 20px;
+    text-align : right;
+}
+
+/* :: ksg_20200724_1101 close : 약관 동의 페이지 파트 */
+
+
+/* :: ksg_20200724_1713 open : 내폰팔기 폰 상세 페이지 파트 */
+.bannerGroup.myPhSort {
+    padding : 60px 0;
+}
+.pgRouteBox {
+    font-size : 14px;
+    color : #979797;
+    padding-bottom : 30px;
+}
+.gdSaleRegGroup {
+    font-size : 0;
+}
+.saleGdImgBox {
+    display : inline-block;
+    vertical-align : top;
+    width : 48%;
+}
+.saleGdImgBox img {
+    width : 100%;
+    height : 100%;
+}
+.saleGdRadioGroup {
+    display : inline-block;
+    vertical-align : top;
+    width : calc(52% - 70px);
+    padding-left : 70px;
+    background-color : #ccc;
+}
+/* :: ksg_20200724_1713 close : 내폰팔기 폰 상세 페이지 파트 */
